@@ -1,1 +1,88 @@
-Initial Commit
+The following is intended to be a collection of resources to help
+individuals get their first job in offensive security as a
+vulnerability researcher.
+
+* Readings
+** The Art of Software Security Assessment
+  https://www.amazon.com/Art-Software-Security-Assessment-Vulnerabilities-ebook/dp/B004XVIWU2/ref=sr_1_1?dchild=1&keywords=the+art+of+software+security+assessment&qid=1609855727&sr=8-1
+
+  The book is a real tomb, but most of the material is excellent.  I
+  consider chapters 5, and 6 must know material for breaking into
+  offensive security.  Much of the rest can be read at leisure, used
+  as reference, or picked up with experience.
+
+** Reversing: Secrets of Reverse Engineering
+   https://www.amazon.com/s?k=Reversing%3A+Secrets+of+Reverse+Engineering&i=stripbooks&ref=nb_sb_noss_2
+
+   This one is a bit Windows/x86 centric.  I encourage readers not to
+   get too caught up in details about Windows, but instead read
+   chapters 1-4 lightly with the goal being to understand chapter 5
+   thoroughly.  By the time you finish chapter 5 you should understand
+   how to take a compiled binary and reverse routines to C source
+   code.
+
+** Operating systems: Three Easy Peices
+   http://pages.cs.wisc.edu/~remzi/OSTEP/
+
+   A free and very readable introduction to modern operating systems.
+   It'll get you some footing to understand the operating systems
+   actually used in the real world today.  It is quite Unix centric,
+   however.
+
+** Further reading lists.
+*** Thomas Ptacek has an excellent reading list preserved here:
+	https://web.archive.org/web/20170411010702/https://www.amazon.com/gp/richpub/listmania/fullview/R2EN4JTQOCHNBA
+
+*** Dan Luu:
+	https://danluu.com/programming-books/
+
+	Note, Dan's list isn't really security focused.  But he has some
+	helpful things to say about operating system books.
+
+* Projects and CTFs
+** Learn to program
+Learning to solve problems with code is fundamental.  Learn however
+you like, but I recommend finding a fun project or set of challenges
+to commit to.  For vulnerability research, I recommend learning C and
+Python.
+
+If you have never written computer programs, then you'll have to find
+somewhere to get the very basics...  Once you know how to write "hello
+world" in your language of choice, you can tackle something more
+complex.
+
+Here are some fun challenges:
+
+*** Cryptopals
+	https://cryptopals.com
+
+	This is the set of challenges I used to write C, and I learned
+	some cool crypto stuff too.  It is a ton of fun if you're into
+	this sort of thing, so I like to point people to it whenever I get
+	the chance.
+
+*** Advent of Code
+	Each December brings a new set of challenges!  Do them at your own pace.
+
+	https://adventofcode.com/
+
+
+
+** Learn to reverse engineer
+*** Microcorruption
+   https://www.microcorruption.com/login
+
+   Microcorruption is an online embedded security CTF.  It was created
+   by a company called Matasano (since acquired by NCC group) for use
+   as a recruiting tool, but mostly it is a really fun and educational
+   game.
+
+   Microcorruption is as convenient as it gets for learning the basics
+   of reverse engineering, debugging, and common bug classes that
+   arise when the C programming language is used.
+
+*** Bomb Lab
+	https://www.cs.virginia.edu/~cr4bd/3330/F2018/bomblab.html
+
+	Reverse engineer an actual binary.  This lab seems to be a great
+	first binary to reverse engineer.

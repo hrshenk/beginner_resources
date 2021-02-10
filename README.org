@@ -54,19 +54,25 @@ complex.
 Here are some fun challenges:
 
 *** Cryptopals
-	https://cryptopals.com
+https://cryptopals.com
 
-	This is the set of challenges I used to write C, and I learned
-	some cool crypto stuff too.  It is a ton of fun if you're into
-	this sort of thing, so I like to point people to it whenever I get
-	the chance.
+This is the set of challenges I used to learn to write C, and I
+learned some cool crypto stuff too.  It is a ton of fun if you're
+into this sort of thing, so I like to point people to it whenever
+I get the chance.
+
+I think cryptopals is probably one of the best resources for learning
+about crypto vulnerabilities, but most positions don't actually
+require much knowledge about breaking crypto.  If you want to break
+into some cryptographic field, this is likely a great place to start,
+but that isn't the primary reason I recommend it.  I recommend it as a
+way to learn how to solve problems with code.  The crypto knowledge is
+a bonus... but find a project you will enjoy.
 
 *** Advent of Code
 	Each December brings a new set of challenges!  Do them at your own pace.
 
 	https://adventofcode.com/
-
-
 
 ** Learn to reverse engineer
 *** Microcorruption
